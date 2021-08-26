@@ -141,7 +141,23 @@ function questionHandler(name) {
             }
         }
     ]).then(response => {
-        console.log(response, name);
+        if (response.role === 'Employee') {
+            const employee = new Employee(name, response.id, response.email);
+
+            console.log(employee);
+        } else if (response.role === 'Manager') {
+            const manager = new Manager(name, response.id, response.email, response.officeNumber);
+
+            console.log(manager);
+        } else if (response.role === 'Engineer') {
+            const engineer = new Engineer(name, response.id, response.email, response.github);
+
+            console.log(engineer);
+        } else if (response.role === 'Intern') {
+            const intern = new Intern(name, response.id, response.email, response.school);
+
+            console.log(intern);
+        }
     })
 };
 
