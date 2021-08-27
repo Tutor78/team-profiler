@@ -15,7 +15,7 @@ function managerCard(name, id, email, officeNumber) {
                             <h4><i class="fas fa-mug-hot mx-2"></i>Manager</h4>
                         </div>
                         <div class="card-text p-2">
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Id: ${id}</h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">ID: ${id}</h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">Email: ${email}</h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">Office: ${officeNumber}</h5>
                         </div>
@@ -36,7 +36,7 @@ function engineerCard(name, id, email, github) {
                             <h4><i class="fas fa-glasses mx-2"></i>Engineer</h4>
                         </div>
                         <div class="card-text p-2">
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Id: ${id}</h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">ID: ${id}</h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">Email: ${email}</h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">Github: ${github}</h5>
                         </div>
@@ -57,7 +57,7 @@ function internCard(name, id, email, school) {
                             <h4><i class="fas fa-user-graduate mx-2"></i>Intern</h4>
                         </div>
                         <div class="card-text p-2">
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Id: ${id}</h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">ID: ${id}</h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">Email: ${email}</h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">School: ${school}</h5>
                         </div>
