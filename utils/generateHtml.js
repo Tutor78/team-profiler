@@ -16,7 +16,7 @@ function managerCard(name, id, email, officeNumber) {
                         </div>
                         <div class="card-text p-2">
                             <h5 class="col-12 border p-1 rounded shadow-sm">ID: ${id}</h5>
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Email: ${email}</h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">Email: <a class="text-dark" href="mailto:${email}">${email}</a></h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">Office: ${officeNumber}</h5>
                         </div>
                     </div>
@@ -37,8 +37,8 @@ function engineerCard(name, id, email, github) {
                         </div>
                         <div class="card-text p-2">
                             <h5 class="col-12 border p-1 rounded shadow-sm">ID: ${id}</h5>
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Email: ${email}</h5>
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Github: ${github}</h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">Email: <a class="text-dark" href="mailto:${email}">${email}</a></h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">Github: <a class="text-dark" href="https://github.com/${github}">${github}</a></h5>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ function internCard(name, id, email, school) {
                         </div>
                         <div class="card-text p-2">
                             <h5 class="col-12 border p-1 rounded shadow-sm">ID: ${id}</h5>
-                            <h5 class="col-12 border p-1 rounded shadow-sm">Email: ${email}</h5>
+                            <h5 class="col-12 border p-1 rounded shadow-sm">Email: <a class="text-dark" href="mailto:${email}">${email}</a></h5>
                             <h5 class="col-12 border p-1 rounded shadow-sm">School: ${school}</h5>
                         </div>
                     </div>

@@ -21,7 +21,7 @@ First, clone the files to your own computer. Next, navigate to the folder that c
 
 ## Usage
 
-While in the folder that contains the index.js file, run node index.js to begin the appication. After that, you will be presented with a series of prompts that will help you to dynamically generate the cards that will hold the employee data. When you are finished, answer no when prompted to add another employee and your file will be generated in the dist folder. [Here](https://drive.google.com/file/d/17QhqKtF6JUEtYTk1QonWVuhv7aFWBOGP/view) is a video that demonstrates the application with five employees, but you are able to add as many as you would like.
+While in the folder that contains the index.js file, run node index.js to begin the appication. After that, you will be presented with a series of prompts that will help you to dynamically generate the cards that will hold the employee data. When you are finished, answer no when prompted to add another employee and your file will be generated in the dist folder. [Here](https://drive.google.com/file/d/1THGgb-x0eo7E630xHOtQSpmx1l5wNphG/view) is a video that demonstrates the application with five employees, but you are able to add as many as you would like.
 
 ## License
 
