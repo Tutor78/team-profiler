@@ -27,7 +27,7 @@ While in the folder that contains the index.js file, run node index.js to begin 
 
 This project is licensed under the [MIT](LICENSE) license.
 
-## Languages/Frameworks
+## Languages / Frameworks
 
 * Javascript
 
