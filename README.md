@@ -11,7 +11,7 @@ The team profiler is a command line app that generates an html page based on the
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
-* [Languages/Frameworks](#languages)
+* [Languages / Frameworks](#languages)
 * [Dependancies](#dependancies)
 * [Tests](#tests)
 
